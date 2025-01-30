@@ -16,10 +16,8 @@ public class AreaManager : MonoBehaviour
             Debug.Log("what");
         }
 
-        if (other.CompareTag("Player"))
-        {
             Debug.Log("what");
-        }
+        
     }    
 
     private void OnTriggerExit2D(Collider2D other)
